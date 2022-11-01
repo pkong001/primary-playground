@@ -5,5 +5,5 @@ print("Hello World, try this")
 hippy = []
 for i in range(10):
   j = str(i)
-  hippy.append
+  hippy.append(j)
   
