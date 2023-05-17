@@ -11,7 +11,7 @@ s2 = './sound/click.mp3'
 
 # Load the sound file
 sound = pygame.mixer.Sound(s2)
-
+sound.play()
 while True:
     # Generate a random number between 1 and 60
     random_number = random.randint(40, 60)
